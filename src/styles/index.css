@@ -1,0 +1,751 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Homemade+Apple&family=Noto+Serif&family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* General stuff */
+/* The biggest issues with the CSS rn is that I've adjusted the spacing with padding/margins.
+I did this just to get the spacing down quickly. The best way to deal with this is to rely
+more heavily on the bootstrap layout system. Done correctly, it should auto adjust on different
+device sizes. */
+
+/* Navigation component */
+
+.nav-primary {
+  width: 70%; /* 70% is the margin for the entire site */
+  margin: 0 auto;
+}
+
+.navlink {
+  color: rgba(
+    48,
+    47,
+    47,
+    0.911
+  ) !important; /* !important is used to override bootstrap css, not sure if there is a better way */
+  font-weight: bold;
+  margin-right: 30px;
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
+}
+
+.resources-link {
+  color: black !important;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
+}
+
+.navlink:hover {
+  color: white !important;
+}
+
+.nav-links {
+  float: right;
+}
+
+.fencing-nav {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* This is a weird hack to get the navbar to collapse properly on mobile. idk. */
+@media (max-width: 768px) {
+  .nav-links {
+    float: right;
+    width: 400%;
+    background-color: rgba(255, 255, 255, 0.281);
+  }
+}
+/* This is the resources drop down on the far right of the navbar. */
+#dropdown-basic-button {
+  color: rgba(48, 47, 47, 0.911) !important;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
+}
+
+.dropdown-item {
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+.navdrop .active {
+  background-color: #1a1a1a !important;
+}
+
+.droplink:active {
+  /* This refers to the background of the thing that drops down, as opposed to the links themselves */
+  background-color: #505050 !important;
+}
+
+.navlink-news {
+  margin-right: 20px;
+}
+
+/* End Navigation */
+/* Footer component */
+.footerWrapper {
+  background-color: black;
+  min-height: 10vh;
+  margin-top: auto;
+  width: 100%;
+}
+
+.footerText {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding-top: 24px;
+}
+
+.secret-text {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.footerContainer {
+  width: 70%;
+}
+
+@media screen and (max-width: 700px) {
+  .footerContainer {
+    width: 100%;
+    height: 6em;
+  }
+}
+.footerRow {
+  height: 4em;
+}
+
+.footer-col-2 {
+  text-align: right;
+}
+
+.footer-icon {
+  margin-right: 20px;
+}
+
+.footer-icons {
+  padding-top: 20px;
+  text-align: right;
+}
+/* Header for the home page specifically */
+.navWrapper {
+  height: 640px;
+  background: linear-gradient(to right, #d3c71fb9, #d3c71fb9),
+    url("https://static.wixstatic.com/media/95c7c7_a0c895b386a746438646f5f33e6a42a1~mv2_d_2048_1366_s_2.jpg/v1/fill/w_980,h_528,al_c,q_85,usm_0.66_1.00_0.01/95c7c7_a0c895b386a746438646f5f33e6a42a1~mv2_d_2048_1366_s_2.webp")
+      no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 70%,
+    0 100%
+  ); /* clip-path is the css property which slashes the picture. */
+  width: 100%;
+}
+
+.heading-purdue {
+  color: rgb(56, 56, 56);
+  font-size: 65px;
+  margin-bottom: -60px;
+  margin-left: 3px;
+  font-family: "Noto Serif", serif;
+}
+
+.heading-fencing {
+  color: white;
+  font-size: 140px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+.heading-date {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+  .heading-purdue {
+    padding-top: 20px;
+    color: rgb(56, 56, 56);
+    font-size: 40px;
+    margin-bottom: -40px;
+    margin-left: 3px;
+    font-family: "Noto Serif", serif;
+  }
+
+  .heading-fencing {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+  }
+  .heading-date {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+  }
+}
+
+.header-text {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.join-text {
+  color: black !important;
+  font-family: "Oswald", sans-serif;
+  background-attachment: fixed;
+}
+
+.join-text:hover {
+  color: white !important;
+}
+
+.join {
+  margin-top: -30px;
+}
+
+/* End Header */
+/* Home page */
+
+/* For the list of universities in the home page */
+.university-header {
+  text-align: center;
+}
+
+.uni-logo {
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+.home-calendar {
+}
+/* About page */
+.secondary-nav {
+  height: 500px;
+  background: linear-gradient(to right, #d3c71fb9, #d3c71fb9),
+    url("../images/background1.png") no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 2000;
+}
+
+.heading-about {
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  padding-top: 25px;
+}
+
+.home-intro {
+  width: 70%;
+  font-family: "Oswald", sans-serif;
+}
+
+.home-text {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif, bold;
+}
+
+.about-header {
+  font-size: 50px;
+}
+
+.about-intro {
+  width: 70%;
+  font-family: "Oswald", sans-serif;
+}
+
+.about-carousel-img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  object-position: 100% 30%;
+}
+
+/* These text-aligns can probably be done with bootstrap classes */
+.image-center {
+  padding-right: 53px;
+  padding-left: 53px;
+}
+
+.work-improvement {
+  text-align: center;
+}
+
+.work-text {
+  background-color: pink;
+  width: 100px;
+  text-align: center;
+}
+
+.callout-img {
+  height: 300px;
+  object-fit: cover;
+  object-position: 100% 50%;
+}
+/* End About */
+/* Officer page */
+.officer-nav {
+  height: 500px;
+  background: linear-gradient(to right, #d3c71fb9, #d3c71fb9),
+    url("../images/officer-bg.jpeg") no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.officer-date {
+  color: rgb(56, 56, 56);
+  font-size: 65px;
+  font-family: "Oswald", sans-serif;
+}
+
+.officer-img {
+  height: 200px;
+  object-fit: cover;
+  object-position: 100% 50%;
+}
+
+.officer-miranda {
+  height: 210px;
+  object-fit: cover;
+  object-position: 100% 30%;
+}
+
+.officer-kaitlyn {
+  height: 210px;
+  object-fit: cover;
+  object-position: 100% 0%;
+}
+
+.officer-jada {
+  height: 205px;
+  object-fit: cover;
+  object-position: 100% 10%;
+}
+.officer-evan {
+  height: 205px;
+  object-fit: cover;
+  object-position: 100% 10%;
+}
+.officer-sasha {
+  height: 205px;
+  object-fit: cover;
+  object-position: 100% 10%;
+}
+.executive {
+  width: 70%;
+  justify-content: center;
+}
+
+.non-executive {
+  width: 70%;
+  justify-content: center;
+}
+
+.officer-info {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+  .officer-info {
+    font-size: 16px;
+  }
+}
+
+.officer-card {
+  margin-bottom: 20px;
+}
+.staff-card {
+  margin-bottom: 20px;
+  width: 300px;
+}
+.alyssa-card {
+  margin-bottom: 20px;
+}
+.staff-wrapper {
+  margin: 0 auto;
+}
+/* End Officer */
+/* Join page */
+.join-nav {
+  height: 500px;
+  background: linear-gradient(to right, #d3c71fb9, #d3c71fb9),
+    url("../images/joinbg.jpeg") no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 2000;
+}
+
+.heading-join {
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  padding-top: 25px;
+}
+@media screen and (max-width: 850px) {
+  .heading-join {
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    padding-top: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .heading-join {
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    padding-top: 25px;
+  }
+}
+.join-fence-text {
+  color: rgb(56, 56, 56);
+}
+
+.join-header {
+  width: 70%;
+}
+
+.join-intro {
+  font-family: "Oswald", sans-serif;
+}
+
+.join-content-container {
+  width: 70%;
+}
+
+.join-beginner-img {
+  height: 300px;
+  object-fit: cover;
+  object-position: 100% 10%;
+}
+.join-beginner {
+  width: 50%;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+}
+@media (max-width: 1024px) {
+  .join-beginner {
+    width: 100%;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+  }
+}
+/* End Join */
+/* Contact page */
+.contact-nav {
+  height: 500px;
+  background: linear-gradient(to right, #d3c71fb9, #d3c71fb9),
+    url("../images/contactbg.jpeg") no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-primary {
+  margin: 0 auto;
+  float: none;
+}
+/* End Contact */
+/* News page */
+.news-nav {
+  height: 500px;
+  background: linear-gradient(to right, #d3c71fb9, #d3c71fb9),
+    url("../images/newsbg.jpeg") no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 2000;
+}
+
+/* End News */
+/* Beginner page */
+.beginner-nav {
+  height: 500px;
+  background: linear-gradient(to right, #d3c71fb9, #d3c71fb9),
+    url("../images/beginnerbg2.jpeg") no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 2000;
+}
+
+.beginner-sub {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  color: rgba(48, 47, 47, 0.911);
+  padding-left: 20px;
+}
+
+.beginner-text {
+  padding-top: 60px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.stickybox {
+  /* CSS for the sticky box on the left-hand side of the page to try to make it stand out more */
+  background-color: rgba(245, 245, 245, 0.911);
+  border: 1px solid black;
+  box-shadow: 3px 3px #888888;
+  font-family: "Oswald", sans-serif;
+}
+
+.sidebarlink {
+  color: black !important;
+}
+
+.sidebarlink:hover {
+  color: #292929 !important;
+}
+
+.beginner-content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.beginner-img {
+  padding-bottom: 20px;
+}
+
+.beginner-carousel-img {
+  height: 600px;
+  object-fit: cover;
+  object-position: 100% 50%;
+}
+
+@media (max-width: 1024px) {
+  .beginner-carousel-img {
+    height: 300px;
+    object-fit: cover;
+    object-position: 100% 50%;
+  }
+}
+/* End Beginner */
+/* Sign-up Page */
+.sign-up-nav {
+  height: 500px;
+  background: linear-gradient(to right, #d3c71fb9, #d3c71fb9),
+    url("../images/signupbg.jpeg") no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 2000;
+}
+/* End Sign-up */
+/* Dashboard page */
+.dashboard-nav {
+  height: 500px;
+  background: linear-gradient(to right, #d3c71fb9, #d3c71fb9),
+    url("../images/dashboardbg.jpeg") no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 2000;
+}
+
+.submit-form {
+  width: 40%;
+}
+
+/* End Dashboard */
+/* Admin page */
+.admin-nav {
+  height: 500px;
+  background: linear-gradient(to right, #d3c71fb9, #d3c71fb9),
+    url("../images/dashboardbg.jpeg") no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 2000;
+}
+
+.login-form {
+  width: 50%;
+}
+/* End Admin */
+/* FAQ Page */
+.faq-nav {
+  height: 500px;
+  background: linear-gradient(to right, #d3c71fb9, #d3c71fb9),
+    url("../images/faqbg.jpeg") no-repeat top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 2000;
+}
+.faq-row-wrapper .faq-title {
+  font-family: "Oswald", sans-serif;
+}
+
+.faq-row-wrapper .faq-body {
+  font-family: "Oswald", sans-serif;
+}
+
+.faq-row-wrapper .faq-body .faq-row .row-content .row-content-text {
+  font-family: "Roboto", sans-serif;
+}
+
+/* General styles */
+/* I think we should add some basic custom styles with general names so future fencing people can apply them
+when editing the site. Sort of like our own mini CSS framework */
+.fencing-body {
+  width: 70%;
+}
+
+.fencing-header {
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+}
+
+.fencing-subtitle {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+}
+
+.fencing-subheader {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+}
+
+.fencing-text {
+  font-family: "Roboto", sans-serif;
+}
+
+.fencing-jumbotron-header {
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  padding-top: 25px;
+}
+
+.fencing-jumbotron-subheader {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  color: white;
+  padding-left: 20px;
+}
+
+.fencing-image-center img {
+  margin: auto;
+  display: block;
+}
+
+.fencing-news-img {
+  height: 200px;
+  object-fit: cover;
+  object-position: 100% 20%;
+}
+
+.fencing-post-img {
+  height: 300px;
+  object-fit: cover;
+  object-position: 100% 20%;
+}
+@media screen and (max-width: 1300px) {
+  .fencing-jumbotron-header {
+    font-size: 80px;
+  }
+  .fencing-jumbotron-subheader {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .fencing-jumbotron-header {
+    font-size: 70px;
+  }
+  .fencing-jumbotron-subheader {
+    font-size: 25px;
+  }
+  .officer-info {
+    font-size: 16px;
+  }
+  .uni-logo {
+    height: 100px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .fencing-body {
+    width: 95%;
+  }
+  .fencing-jumbotron-header {
+    font-size: 65px;
+  }
+  .fencing-jumbotron-subheader {
+    font-size: 25px;
+  }
+  .header-text {
+    width: 100%;
+  }
+  .nav-primary {
+    width: 100%; /* 70% is the margin for the entire site */
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .heading-fencing {
+    font-size: 80px;
+    padding-left: 20px;
+  }
+  .heading-purdue {
+    font-size: 50px;
+    padding-left: 10px;
+    margin-top: -40px;
+  }
+
+  .navWrapper {
+    height: 450px;
+    background: linear-gradient(to right, #d3c71fb9, #d3c71fb9),
+      url("https://static.wixstatic.com/media/95c7c7_a0c895b386a746438646f5f33e6a42a1~mv2_d_2048_1366_s_2.jpg/v1/fill/w_980,h_528,al_c,q_85,usm_0.66_1.00_0.01/95c7c7_a0c895b386a746438646f5f33e6a42a1~mv2_d_2048_1366_s_2.webp")
+        no-repeat top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 70%,
+      0 100%
+    ); /* clip-path is the css property which slashes the picture. */
+    width: 100%;
+  }
+  .about-carousel-img {
+    height: 525px;
+    object-fit: cover;
+    object-position: 60% 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .about-carousel-img {
+    height: 300px;
+    object-fit: cover;
+    object-position: 60% 50%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .officer-info {
+    font-size: 16px;
+  }
+  .fencing-header {
+    font-size: 30px;
+  }
+  .fencing-subheader {
+    font-size: 20px;
+  }
+}
+
+.divider-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.fencing-carousel {
+  width: 100%;
+}
