@@ -92,12 +92,7 @@ const data = {
     {
       title: "How do we travel to tournaments?",
       content:
-        "Given the current pandemic we are still unsure of what our travel schedule will look like for the 2021-2022 school year, but typically yes!",
-    },
-    {
-      title: "Do you have to wear a face mask while fencing?",
-      content:
-        "Yes. Per Protect Purdue rules all indoor activities including athletics will be required to wear face masks for the duration of the activity for the Fall 2021 semester.",
+        "We have volounteer drivers who complete a driver certification through Purdue. We then carpool using either privately owned or university vehicles.",
     },
   ],
 };

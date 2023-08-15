@@ -431,13 +431,13 @@ device sizes. */
   object-fit: cover;
   object-position: 100% 10%;
 }
-.join-beginner {
+.event-card {
   width: 50%;
   margin: 0 auto; /* Added */
   float: none; /* Added */
 }
 @media (max-width: 1024px) {
-  .join-beginner {
+  .event-card {
     width: 100%;
     margin: 0 auto; /* Added */
     float: none; /* Added */

@@ -50,7 +50,7 @@ const About = () => (
             <Col>
               <br />
               <p className="fencing-header text-uppercase text-center">
-                100 Years of Slashing, Parrying, Stabbing, and Reposting
+                Over 100 Years of Slashing, Parrying, Stabbing, and Reposting
               </p>
             </Col>
           </Row>
@@ -58,7 +58,7 @@ const About = () => (
           <br />
           <Row xs={1} md={2}>
             <Col>
-              <h3>Happy 100th Anniversary!</h3>
+              <h3>Our History</h3>
               <br />
               <p className="fencing-text">
                 The Purdue Fencing Club was founded in 1922 as a five-man

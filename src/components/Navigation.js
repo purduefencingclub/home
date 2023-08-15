@@ -42,9 +42,6 @@ const Navigation = () => (
               <LinkContainer to="/contact">
                 <Nav.Link className="navlink">CONTACT</Nav.Link>
               </LinkContainer>
-              <LinkContainer to="/news">
-                <Nav.Link className="navlink navlink-news">NEWS</Nav.Link>
-              </LinkContainer>
               <NavDropdown
                 id="dropdown-basic-button"
                 title="RESOURCES"

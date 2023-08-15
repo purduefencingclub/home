@@ -129,35 +129,7 @@ const Index = () => (
           <br />
           <br />
         </Visible>
-          <Row xs={1} md={2}>
-            <Col>
-              <img src={callout} width="100%" className="callout-img" />
-            </Col>
-            <Col>
-              <Visible xs>
-                <br />
-              </Visible>
-              <h2>Thanks For Coming to Our Fall 2021 Club Callout!</h2>
-              <br />
-              <p className="fencing-text">
-                We had a blast at the club callout! This was our biggest to
-                date. Thank you to those who came! If you weren't able to make
-                it, you are still more than welcome to join in on one of our
-                beginner's classes. Click <a href="/join">here</a> for more
-                information.
-              </p>
-            </Col>
-          </Row>
         <Hidden xs>
-          <br />
-          <br />
-          <br />
-        </Hidden>
-        <hr />
-        <Hidden xs>
-          <br />
-          <br />
-          <br />
         </Hidden>
           <div className="university-header">
             <Row>
@@ -168,7 +140,7 @@ const Index = () => (
               </Hidden>
               <Col>
                 <h2 className="text-center">
-                  Universities We've Competed With
+                  Some Universities We've Competed With
                 </h2>
                 <Visible xs sm md>
                   <br />
@@ -232,7 +204,7 @@ const Index = () => (
               </Col>
             </Hidden>
             <Col>
-              <h2 className="text-center">Practice Schedule Fall 2021</h2>
+              <h2 className="text-center">Practice Schedule Fall 2023</h2>
               <Visible xs sm md>
                 <br />
               </Visible>
@@ -266,7 +238,8 @@ const Index = () => (
               </Col>
               <Col>
                 <p className="fencing-header">SUN</p>
-                <p className="fencing-subheader">2:00pm - 5:00pm</p>
+                <p className="sunday-subheader">*Open Fencing</p>
+                <p className="fencing-subheader">12:00pm - 3:00pm</p>
               </Col>
             </Row>
           </Container>

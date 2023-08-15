@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, Button} from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
@@ -25,8 +25,7 @@ const SignUp = () => (
     <div>
       <Container className="fencing-body">
         <h1>
-          The next beginner's practice session is: Thursday, September 13th,
-          9:00-10:30pm at MP5 in the Corec.
+          The next beginner's practice session is: TBD in MP5 in the Corec
         </h1>
         <br />
         <hr></hr>
@@ -36,9 +35,14 @@ const SignUp = () => (
             Before you can start fencing, you'll have to sign our waiver.
             Fencing isn't dangerous, but it is a contact sport!
           </p>
-          <Button variant="dark">Sign The Waiver Here</Button>
-          <br />
-          <Button variant="dark">Waiver for Minors</Button>
+
+          <a href="https://powerforms.docusign.net/95ff1cad-4684-44d3-b347-b1de508ee8cf?env=na2&accountId=9ad6adfd-6804-409b-91bc-173cbee909f9">
+            <Button variant="dark">Sign The Waiver Here</Button>
+          </a>
+            
+          <a href="https://powerforms.docusign.net/99f87433-9769-472c-882d-231571058091?env=na2&accountId=9ad6adfd-6804-409b-91bc-173cbee909f9">
+            <Button variant="dark">Waiver for Minors</Button>
+          </a>
         <br />
         <hr></hr>
           <br />

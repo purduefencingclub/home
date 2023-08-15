@@ -27,6 +27,6 @@ const Officercard = ({name, imagesrc, position, major, bladeimg, blade, year, ye
             </Card.Text>
         </Card.Body>
         </Card>
-    )
+        )
     }
-    export default Officercard
+export default Officercard

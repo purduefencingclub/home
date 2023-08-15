@@ -24,6 +24,7 @@ import { Visible, Hidden } from "react-grid-system";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 import "../styles/index.css";
+import Eventcard from "../components/Eventcard";
 
 const Join = () => (
   <>
@@ -32,7 +33,10 @@ const Join = () => (
     issue. I like the cards here, though, as it stylistically matches the officers page and provides
     an easy way to update the site in the future.
     Additionally, it would be really cool to have these pull info from an event database, which would also 
-    signicantly reduce the amount of work in updating the page. */}
+    signicantly reduce the amount of work in updating the page. - Sasha (2021-22)*/}
+
+    {/* I plan on making a component for events to be added/removed from the page easily, the props can be eventually updated from a database.
+    I like the card design with an optional button, but I'm gonna have to standardize it. - Phillip (2023-24)*/}
     <script
       src="https://kit.fontawesome.com/a17da011a4.js"
       crossorigin="anonymous"
@@ -143,41 +147,13 @@ const Join = () => (
         </Row>
       </Container> */}
       {/* <h1 className="text-center">OPPORTUNITIES FOR BEGINNERS</h1> */}
-      <Container>
-        <hr></hr>
-        <br />
-        <Row xs={1} md={1}>
-          <Col>
-            <Card className="join-beginner">
-              <Card.Img
-                variant="bottom"
-                src={beginner}
-                className="join-beginner-img"
-              />
-              <Card.Body>
-                <Card.Title>Beginner's Class</Card.Title>
-                <Card.Text>
-                  Learn to fence! Over a month, our club members will teach you
-                  the basics of all three disciplines of fencing: foil, saber,
-                  and epee. We will provide all the equipment you'll need to get
-                  started. If you're interested, click the button below!
-                  <br />
-                  <br />
-                  <LinkContainer to="/sign-up">
-                    <Button variant="dark">New fencers, start here!</Button>
-                  </LinkContainer>
-                  <br />
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer className="text-muted">
-                Next Class: September 13th 9-10:30pm
-                <br />
-                Location: Corec MP5
-              </Card.Footer>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
+      <Eventcard cardTitle="Beginner's Class"
+       cardBody="Learn to fence! Over a month, our club members will teach you the basics of all three disciplines of fencing: foil, saber, and epee. We will provide all the equipment you'll need to get started. If you're interested, click the button below!"
+       cardButtonText="New fencers, start here!"
+       cardButtonLink="/sign-up"
+       cardFooterText="Next Class: TBD | Location: Corec MP5"
+       cardImage={beginner}
+       />
     </Container>
     <br />
     <br />

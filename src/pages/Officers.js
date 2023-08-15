@@ -18,19 +18,15 @@ import Officercard from "../components/Officercard"
 
 import joshua from "../images/joshua_officer.jpg";
 import casper from "../images/casper_officer.jpg"
-
-import miranda from "../images/miranda.jpg";
-import lauren from "../images/lauren.png";
-import racheal from "../images/racheal.jpg";
-import ryan from "../images/ryan.png";
-import smeric from "../images/smeric.png";
-import kaitlyn from "../images/kailtlyn.jpeg";
-import jada from "../images/jada.jpeg";
-import alyssa from "../images/alyssa.jpeg";
+import anya from "../images/anya_officer.jpg"
+import perry from "../images/perry_officer.jpg"
+import aidan from "../images/aidan_officer.jpg"
+import phillip from "../images/phillip_officer.png"
+import kayla from "../images/kayla_officer.jpg"
+import maria from "../images/maria_officer.jpg"
 import erika from "../images/erika.JPG";
-import evan from "../images/evan.jpeg";
-import sasha from "../images/sasha.png";
-import maria from "../images/maria.png";
+import katy from "../images/katy_officer.jpg"
+
 
 import Navigation from "../components/Navigation";
 import "../styles/index.css";
@@ -39,7 +35,10 @@ const Officers = () => (
   <>
     {/* General notes about this page: I like how the cards look. The page has some CSS styling issues that need
     to be addressed, specifically with the grid. Their padding is being adjusted but it's getting messed up on
-    mobile. As for the layout of the page, I think it's okay, but I can't tell if it's missing something. */}
+    mobile. As for the layout of the page, I think it's okay, but I can't tell if it's missing something. - Sasha 2021-22*/}
+
+    {/* I created an officer card component to have easier editing of the page. Need to find out where Sasha got those icons from
+    or eventually make my own, I really like them. Also need to update the staff section. - Phillip 2023-24*/}
     <script
       src="https://kit.fontawesome.com/a17da011a4.js"
       crossorigin="anonymous"
@@ -84,109 +83,25 @@ const Officers = () => (
             {/* xs and md refer to the column number for extra small/medium devices (1 on mobile, 3 on laptop)
           (phones/laptops) which helps spacing on different device widths. 
           Need to add these to other pages */}
-            {/* TODO: create a card component with props for name, major, weapon, 
-          and pic and pass them in here.*/}
             <Col>
-              <Officercard name="Joshua Nimmo" imagesrc={joshua} position="Treasurer" 
+              <Officercard name="Joshua Nimmo" imagesrc={joshua} position="Treasurer + Community Service Officer" 
               major="Computer Science" bladeimg={foilicon} blade="Foil" year="Senior" yearimg={senior}/>
             </Col>
             <Col>
               <Officercard name="Casper Lai" imagesrc={casper} position="President" 
-              major="uhh" bladeimg={sabericon} blade="Sabre" year="Junior" yearimg={junior}/>
+              major="Kinesiology" bladeimg={sabericon} blade="Sabre" year="Junior" yearimg={junior}/>
             </Col>
             <Col>
-              <Officercard name="Anya" imagesrc={casper} position="Vice President" 
-              major="uhh" bladeimg={sabericon} blade="Sabre" year="Junior" yearimg={junior}/>
+              <Officercard name="Anya Ghali" imagesrc={anya} position="Vice President" 
+              major="Aero/Astro Engineering + Math" bladeimg={sabericon} blade="Sabre" year="Junior" yearimg={junior}/>
             </Col>
             <Col>
-              <Card className="text-center officer-card">
-                <Card.Img variant="top" src={lauren} />
-                <Card.Body>
-                  <Card.Title>Lauren Feng</Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted">
-                    Safety Officer
-                  </Card.Subtitle>
-                  <br />
-                  <Card.Text>
-                    <Row xs={3} md={3}>
-                      <Col>
-                        <i class="fas fa-brain fa-2x"></i>
-                        <p className="officer-info">Psychology</p>
-                      </Col>
-                      <Col>
-                        <img src={foilicon} width="50%" />
-                        <p className="officer-info">Foil</p>
-                      </Col>
-                      <Col>
-                        <img src={junior} width="50%" />
-                        <p className="officer-info">Junior</p>
-                      </Col>
-                    </Row>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+              <Officercard name="Peregrine Zhang" imagesrc={perry} position="Fundraising Officer" 
+              major="Finance" bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
             </Col>
             <Col>
-              <Card className="text-center officer-card">
-                <Card.Img
-                  variant="top"
-                  src={kaitlyn}
-                  className="officer-kaitlyn"
-                />
-                <Card.Body>
-                  <Card.Title>Kaitlyn Cooper</Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted">
-                    Community Service Officer
-                  </Card.Subtitle>
-                  <br />
-                  <Card.Text>
-                    <Row xs={3} md={3}>
-                      <Col>
-                        <i class="fas fa-seedling fa-2x"></i>
-                        <p className="officer-info">Biology</p>
-                      </Col>
-                      <Col>
-                        <img src={sabericon} width="50%" />
-                        <p className="officer-info">Saber</p>
-                      </Col>
-                      <Col>
-                        <img src={senior} width="50%" />
-                        <p className="officer-info">Senior</p>
-                      </Col>
-                    </Row>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card className="text-center officer-card">
-                <Card.Img variant="top" src={jada} className="officer-jada" />
-                <Card.Body>
-                  <Card.Title>Jada Johnson</Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted">
-                    Fundraising
-                  </Card.Subtitle>
-                  <br />
-                  <Card.Text>
-                    <Row xs={3} md={3}>
-                      <Col>
-                        <i class="fas fa-book fa-2x"></i>
-                        <p className="officer-info text-nowrap">
-                          Creative Writing
-                        </p>
-                      </Col>
-                      <Col>
-                        <img src={epeeicon} width="45%" />
-                        <p className="officer-info">Epee</p>
-                      </Col>
-                      <Col>
-                        <img src={junior} width="50%" />
-                        <p className="officer-info">Junior</p>
-                      </Col>
-                    </Row>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+              <Officercard name="Katy Heath" imagesrc={katy} position="Safety Officer" 
+              major="Speech Language Hearing Sciences + Pre-Med" bladeimg={sabericon} blade="Sabre" year="Junior" yearimg={junior}/>
             </Col>
           </Row>
         <br />
@@ -214,149 +129,27 @@ const Officers = () => (
         <br />
         <Row xs={1} sm={1} md={2} lg={2} xl={3}>
           <Col>
-            <Card className="text-center officer-card">
-              <Card.Img variant="top" src={ryan} />
-              <Card.Body>
-                <Card.Title>Ryan Everhart</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  Armorer
-                </Card.Subtitle>
-                <br />
-                <Card.Text>
-                  <Row xs={3} md={3}>
-                    <Col>
-                      <i class="fas fa-gamepad fa-2x"></i>
-                      <p className="officer-info">Game Design</p>
-                    </Col>
-                    <Col>
-                      <img src={epeeicon} width="45%" />
-                      <p className="officer-info">Epee</p>
-                    </Col>
-                    <Col>
-                      <img src={junior} width="50%" />
-                      <p className="officer-info">Junior</p>
-                    </Col>
-                  </Row>
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Officercard name="Aidan Villegas" imagesrc={aidan} position="Web/Media Coordinator" 
+              major="Robotics Engineering Technology" bladeimg={sabericon} blade="Sabre" year="Junior" yearimg={junior}/>
           </Col>
           <Col>
-            <Card className="text-center officer-card">
-              <Card.Img variant="top" src={smeric} />
-              <Card.Body>
-                <Card.Title>Eric Wang</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  Head Webmaster
-                </Card.Subtitle>
-                <br />
-                <Card.Text>
-                  <Row xs={3} md={3}>
-                    <Col>
-                      <i class="fas fa-laptop-code fa-2x"></i>
-                      <p className="officer-info">CSE</p>
-                    </Col>
-                    <Col>
-                      <img src={foilicon} width="50%" />
-                      <p className="officer-info">Foil</p>
-                    </Col>
-                    <Col>
-                      <img src={junior} width="50%" />
-                      <p className="officer-info">Junior</p>
-                    </Col>
-                  </Row>
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Officercard name="Phillip Bernwanger" imagesrc={phillip} position="Head Web/Media Coordinator" 
+              major="Computer Science" bladeimg={foilicon} blade="Foil" year="Junior" yearimg={junior}/>
           </Col>
           <Col>
-            <Card className="text-center officer-card">
-              <Card.Img variant="top" src={evan} className="officer-evan" />
-              <Card.Body>
-                <Card.Title>Evan Heiss</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  Web Master
-                </Card.Subtitle>
-                <br />
-                <Card.Text>
-                  <Row xs={3} md={3}>
-                    <Col>
-                      <i class="fas fa-plane fa-2x"></i>
-                      <p className="officer-info">AAE</p>
-                    </Col>
-                    <Col>
-                      <img src={sabericon} width="50%" />
-                      <p className="officer-info">Saber</p>
-                    </Col>
-                    <Col>
-                      <img src={sophomore} width="50%" />
-                      <p className="officer-info text-nowrap">Sophomore</p>
-                    </Col>
-                  </Row>
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Officercard name="Kayla Robinson" imagesrc={kayla} position="Web/Media Coordinator" 
+              major="Industrial Design" bladeimg={epeeicon} blade="Epee" year="Junior" yearimg={junior}/>
           </Col>
           <Col>
-            <Card className="text-center officer-card">
-              <Card.Img variant="top" src={sasha} className="officer-sasha" />
-              <Card.Body>
-                <Card.Title>Sasha Thomas</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  Web Master
-                </Card.Subtitle>
-                <br />
-                <Card.Text>
-                  <Row xs={3} md={3}>
-                    <Col>
-                      <i class="fas fa-server fa-2x"></i>
-                      <p className="officer-info text-nowrap">Cybersecurity</p>
-                    </Col>
-                    <Col>
-                      <img src={sabericon} width="50%" />
-                      <p className="officer-info">Saber</p>
-                    </Col>
-                    <Col>
-                      <img src={junior} width="50%" />
-                      <p className="officer-info">Junior</p>
-                    </Col>
-                  </Row>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col>
-            <Card className="text-center officer-card">
-              <Card.Img variant="top" src={maria} />
-              <Card.Body>
-                <Card.Title>Maria Soare</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">
-                  Travel Coordinator
-                </Card.Subtitle>
-                <br />
-                <Card.Text>
-                  <Row xs={3} md={3}>
-                    <Col>
-                      <i class="fas fa-plane fa-2x"></i>
-                      <p className="officer-info">AAE</p>
-                    </Col>
-                    <Col>
-                      <img src={epeeicon} width="50%" />
-                      <p className="officer-info">Epee</p>
-                    </Col>
-                    <Col>
-                      <img src={senior} width="50%" />
-                      <p className="officer-info">Senior</p>
-                    </Col>
-                  </Row>
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Officercard name="Maria Soare" imagesrc={maria} position="Travel Coordinator" 
+              major="Aero/Astro Engineering" bladeimg={epeeicon} blade="Epee" year="Senior" yearimg={senior}/>
           </Col>
         </Row>
         <br />
         <br />
         <br />
+
+        {/* STAFF CONTAINER
         <Container>
           <Row>
             <Col>
@@ -380,51 +173,9 @@ const Officers = () => (
             </Col>
           </Row>
           <br />
-          <Container className="staff-wrapper">
-            <Row xs={1} md={2}>
-              <Col>
-                <Card className="text-center alyssa-card">
-                  <Card.Img src={alyssa} width="400px" />
-                  <Card.Body>
-                    <Card.Title>Alyssa Hirsch</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">
-                      Coach
-                    </Card.Subtitle>
-                    <br />
-                    <Card.Text>
-                      <Row>
-                        <Col>
-                          <i class="fas fa-church fa-2x"></i>
-                          <p className="officer-info">History</p>
-                        </Col>
-                        <Col>
-                          <i class="fas fa-khanda fa-2x"></i>
-                          <p className="officer-info">Coach</p>
-                        </Col>
-                        <Col>
-                          <img src={freshman} width="25%" />
-                          <p className="officer-info">Grad Student</p>
-                        </Col>
-                      </Row>
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col>
-                <Card className="text-center erika-card">
-                  <Card.Img src={erika} width="300px" />
-                  <Card.Body>
-                    <Card.Title>Erika Kvam</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">
-                      Advisor
-                    </Card.Subtitle>
-                    <br />
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
-          </Container>
         </Container>
+        */}
+        
       </Container>
     </div>
     <br />

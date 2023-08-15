@@ -4,7 +4,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import image1 from "../images/image1.jpeg";
 import divider from "../images/divider1.png";
 import Footer from "../components/Footer";
-import miranda2 from "../images/mirandasquare.jpg";
+import casper from "../images/casper_officer.jpg"
 import Navigation from "../components/Navigation";
 
 import logo from "../logo.svg";
@@ -12,28 +12,6 @@ import "../styles/index.css";
 
 // To-Do: FORM VALIDATION YAY
 const Contact = () => {
-  const [status, setStatus] = useState("Submit");
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus("Sending...");
-    const { firstName, lastName, email, message } = e.target.elements;
-    let details = {
-      firstName: firstName.value,
-      lastName: lastName.value,
-      email: email.value,
-      message: message.value,
-    };
-    let response = await fetch("https://purduefencing.com:5001/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
-    setStatus("Submit");
-    let result = await response.json();
-    alert(result.status);
-  };
   return (
     <>
       <script
@@ -114,10 +92,10 @@ const Contact = () => {
               <Row xs={1} md={2}>
                 <Col>
                   <p className="fencing-header">Primary Contact</p>
-                  <Image src={miranda2} roundedCircle fluid width="40%" />
-                  <p className="fencing-subheader">Miranda Carter</p>
+                  <Image src={casper} roundedCircle fluid width="40%" />
+                  <p className="fencing-subheader">Casper Lai</p>
 
-                  <p className="fencing-subheader">carte272@purdue.edu</p>
+                  <p className="fencing-subheader">Casper Email @casperemail.com</p>
                 </Col>
                 <Col>
                   <Row xs={1}>
