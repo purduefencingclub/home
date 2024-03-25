@@ -9,15 +9,10 @@ import {
   CardGroup,
 } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import image1 from "../images/image1.jpeg";
-import divider from "../images/divider1.png";
 import beginner from "../images/Lunge group.png";
 import rightsaber from "../images/rightsaber1.png";
 import rightfoil from "../images/rightfoil.png";
-
-import team1 from "../images/team1.png";
-import callout from "../images/callout.jpeg";
-import fencingpic1 from "../images/fencingpic1.jpg";
+import fencingpic1 from "../images/beginner.jpeg";
 
 import { Visible, Hidden } from "react-grid-system";
 
@@ -151,8 +146,15 @@ const Join = () => (
        cardBody="Learn to fence! Over a month, our club members will teach you the basics of all three disciplines of fencing: foil, saber, and epee. We will provide all the equipment you'll need to get started. If you're interested, click the button below!"
        cardButtonText="New fencers, start here!"
        cardButtonLink="/sign-up"
-       cardFooterText="Next Class: TBD | Location: Corec MP5"
+       cardFooterText="Next Class: Fall 2025 | Location: Corec MP5"
        cardImage={beginner}
+       />
+      <Eventcard cardTitle="Practice / Open Fencing"
+       cardBody="Standard practices with open fencing from 9:00pm to 11:45pm on Tuesday and Thursday, and 12:00pm-3:00pm on Sundays. Fencers who have no yet signed their safety waivers can click the button below."
+       cardButtonText="Safety waiver for new fencers."
+       cardButtonLink="/sign-up"
+       cardFooterText="Next Class: Tue, Thur, Sun| Location: Corec MP5"
+       cardImage={fencingpic1}
        />
     </Container>
     <br />

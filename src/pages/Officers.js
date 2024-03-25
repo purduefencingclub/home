@@ -1,12 +1,9 @@
 import React from "react";
 import { Nav, Container, Button, Row, Col, Card, Image } from "react-bootstrap";
-import { LinkContainer } from "react-router-bootstrap";
-import image1 from "../images/image1.jpeg";
 import divider from "../images/divider1.png";
 import foilicon from "../images/foilicon2.png";
 import sabericon from "../images/sabericon.png";
 import epeeicon from "../images/epeeicon.png";
-import freshman from "../images/freshman.png";
 import sophomore from "../images/sophomore.png";
 import junior from "../images/junior.png";
 import senior from "../images/senior.png";
@@ -24,7 +21,6 @@ import aidan from "../images/aidan_officer.jpg"
 import phillip from "../images/phillip_officer.png"
 import kayla from "../images/kayla_officer.jpg"
 import maria from "../images/maria_officer.jpg"
-import erika from "../images/erika.JPG";
 import katy from "../images/katy_officer.jpg"
 
 
@@ -89,7 +85,7 @@ const Officers = () => (
             </Col>
             <Col>
               <Officercard name="Casper Lai" imagesrc={casper} position="President" 
-              major="Kinesiology" bladeimg={sabericon} blade="Sabre" year="Junior" yearimg={junior}/>
+              major="Industrial Engineering" bladeimg={sabericon} blade="Sabre" year="Junior" yearimg={junior}/>
             </Col>
             <Col>
               <Officercard name="Anya Ghali" imagesrc={anya} position="Vice President" 
