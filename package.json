@@ -1,7 +1,7 @@
 {
   "name": "new-purduefencing",
   "version": "0.1.0",
-  "homepage": "https://purduefencingclub.net/",
+  "homepage": "https://purduefencingclub.netlify.app",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
@@ -40,7 +40,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=False && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
