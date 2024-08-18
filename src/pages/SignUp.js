@@ -25,7 +25,7 @@ const SignUp = () => (
     <div>
       <Container className="fencing-body">
         <h1>
-          The next beginner's practice session is: TBD in MP5 in the Corec
+          The next beginner's practice session is: September 3rd, 9:00pm in MP5 in the Corec
         </h1>
         <br />
         <hr></hr>

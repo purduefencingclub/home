@@ -37,9 +37,7 @@ const Index = () => (
     <br />
     <div>
       <Container className="home-intro fencing-body">
-        {/* Each body section is wrapped in a Fade element from 'react-reveal' so they
-        fade onto the page, but larger or smaller elements can be faded if that
-        seems better */}
+        {/* TODO: wrap each body section in a reveal library for moving parts */}
           <Row>
             <Hidden xs sm md>
               <Col>
@@ -204,7 +202,7 @@ const Index = () => (
               </Col>
             </Hidden>
             <Col>
-              <h2 className="text-center">Practice Schedule Fall 2023</h2>
+              <h2 className="text-center">Practice Schedule Fall 2025</h2>
               <Visible xs sm md>
                 <br />
               </Visible>
@@ -237,7 +235,7 @@ const Index = () => (
                 <p className="fencing-subheader">9:00pm - 11:45pm</p>
               </Col>
               <Col>
-                <p className="fencing-header">SUN</p>
+                <p className="fencing-header">SAT</p>
                 <p className="sunday-subheader">*Open Fencing</p>
                 <p className="fencing-subheader">12:00pm - 3:00pm</p>
               </Col>

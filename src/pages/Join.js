@@ -72,88 +72,20 @@ const Join = () => (
           </Col>
         </Hidden>
       </Row>
-      {/* <Container>
-        <br />
-        <Row xs={1} md={3} className="g-4">
-          <Col>
-            <Card>
-              <Card.Img
-                variant="bottom"
-                src={fencingpic1}
-                className="officer-miranda"
-              />
-              <Card.Body>
-                <Card.Title>Be-Involved Fair</Card.Title>
-                <Card.Text>
-                  Come see us at the Be-Involved fair! We will have a booth with
-                  some fencing equipment on display. We'll also be happy to
-                  answer any questions!
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer className="text-muted">
-                August 21st 12-5pm <br />
-                Location: Black and Gold Fields
-              </Card.Footer>
-            </Card>
-          </Col>
-          <Col>
-            <Card>
-              <Card.Img
-                variant="bottom"
-                src={callout}
-                className="officer-miranda"
-              />
-              <Card.Body>
-                <Card.Title>PFC Call Out</Card.Title>
-                <Card.Text>
-                  Join us at our club call out! We'll be answering questions,
-                  introducing ourselves, and having some our members demonstrate
-                  fencing bouts!
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer className="text-muted">
-                Tuesday, August 31st @ 9pm
-                <br />
-                Location: Corec MP5
-              </Card.Footer>
-            </Card>
-          </Col>
-          <Col>
-            <Card>
-              <Card.Img
-                variant="right"
-                src={team1}
-                className="officer-miranda"
-              />
-              <Card.Body>
-                <Card.Title>
-                  First Official Fall 2021 Fencing Practice
-                </Card.Title>
-                <Card.Text>
-                  Come fence with us at our first fencing practice since 2020!
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer className="text-muted">
-                Tuesday August 24th @ 9pm <br />
-                Location: Corec MP5
-              </Card.Footer>
-            </Card>
-          </Col>
-        </Row>
-      </Container> */}
+      
       {/* <h1 className="text-center">OPPORTUNITIES FOR BEGINNERS</h1> */}
       <Eventcard cardTitle="Beginner's Class"
        cardBody="Learn to fence! Over a month, our club members will teach you the basics of all three disciplines of fencing: foil, saber, and epee. We will provide all the equipment you'll need to get started. If you're interested, click the button below!"
        cardButtonText="New fencers, start here!"
        cardButtonLink="/sign-up"
-       cardFooterText="Next Class: Fall 2025 | Location: Corec MP5"
+       cardFooterText="Next Class: September 3rd, 9:00pm | Location: Corec MP5"
        cardImage={beginner}
        />
       <Eventcard cardTitle="Practice / Open Fencing"
-       cardBody="Standard practices with open fencing from 9:00pm to 11:45pm on Tuesday and Thursday, and 12:00pm-3:00pm on Sundays. Fencers who have no yet signed their safety waivers can click the button below."
-       cardButtonText="Safety waiver for new fencers."
+       cardBody="Standard practices with open fencing from 9:00pm to 11:45pm on Tuesday and Thursday, and 12:00pm-3:00pm on Saturdays. Fencers who have not yet signed their safety waivers can click the button below."
+       cardButtonText="Safety waiver for new members."
        cardButtonLink="/sign-up"
-       cardFooterText="Next Class: Tue, Thur, Sun| Location: Corec MP5"
+       cardFooterText="Next Class: Tue, Thur, Sat| Location: Corec MP5"
        cardImage={fencingpic1}
        />
     </Container>
