@@ -99,7 +99,7 @@ const Officers = () => (
             </Col>
             <Col>
               <Officercard name="Gabrielle Angelides" imagesrc={gabby} position="Fundraising Officer" 
-               major="Environmental Science + Pre-Law" year="Sophomore" bladeimg={sabericon} blade="Sabre" yearimg={sophomore}/>
+               major="Environmental Science + Pre-Law" year="Sophomore" bladeimg={epeeicon} blade="Epee" yearimg={sophomore}/>
             </Col>
             <Col>
               <Officercard name="Katy Heath" imagesrc={katy} position="Safety Officer" 
