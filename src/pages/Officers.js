@@ -15,7 +15,7 @@ import Officercard from "../components/Officercard"
 
 import casper from "../images/casper_officer.jpg"
 import anya from "../images/anya_officer.jpg"
-import aidan from "../images/aidan_officer.jpg"
+import aidan from "../images/aidan_officer.jpeg"
 import phillip from "../images/phillip_officer.png"
 import isabel from "../images/isabel_officer.jpg"
 import katy from "../images/katy_officer.jpg"
