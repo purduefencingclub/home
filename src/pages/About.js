@@ -50,7 +50,7 @@ const About = () => (
             <Col>
               <br />
               <p className="fencing-header text-uppercase text-center">
-                Over 100 Years of Slashing, Parrying, Stabbing, and Reposting
+                Over 100 Years of Slashing, Parrying, Stabbing, and Riposting
               </p>
             </Col>
           </Row>

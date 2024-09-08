@@ -78,11 +78,11 @@ const Join = () => (
        cardBody="Learn to fence! Over a month, our club members will teach you the basics of all three disciplines of fencing: foil, saber, and epee. We will provide all the equipment you'll need to get started. If you're interested, click the button below!"
        cardButtonText="New fencers, start here!"
        cardButtonLink="/sign-up"
-       cardFooterText="Next Class: September 3rd, 9:00pm | Location: Corec MP5"
+       cardFooterText="Next Class: September 10th, 9:00pm | Location: Corec MP5"
        cardImage={beginner}
        />
       <Eventcard cardTitle="Practice / Open Fencing"
-       cardBody="Standard practices with open fencing from 9:00pm to 11:45pm on Tuesday and Thursday, and 12:00pm-3:00pm on Saturdays. Fencers who have not yet signed their safety waivers can click the button below."
+       cardBody="Standard practices with open fencing from 9:00pm to 11:45pm on Tuesday and Thursday, and 12:00pm-2:00pm on Saturdays. Fencers who have not yet signed their safety waivers can click the button below."
        cardButtonText="Safety waiver for new members."
        cardButtonLink="/sign-up"
        cardFooterText="Next Class: Tue, Thur, Sat| Location: Corec MP5"
