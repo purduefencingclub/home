@@ -88,7 +88,6 @@ const About = () => (
                 className="d-block w-100 fencing-img-crop"
                 src={fencingpic1}
                 alt="First slide"
-                className="about-carousel-img"
               />
             </Carousel.Item>
             <Carousel.Item>
@@ -96,7 +95,6 @@ const About = () => (
                 className="d-block w-100 fencing-img-crop"
                 src={fencingpic2}
                 alt="Second slide"
-                className="about-carousel-img"
               />
             </Carousel.Item>
             <Carousel.Item>
@@ -104,7 +102,6 @@ const About = () => (
                 className="d-block w-100 fencing-img-crop"
                 src={fencingpic3}
                 alt="Third slide"
-                className="about-carousel-img"
               />
             </Carousel.Item>
             <Carousel.Item>
@@ -112,7 +109,6 @@ const About = () => (
                 className="d-block w-100 fencing-img-crop"
                 src={fencingpic4}
                 alt="Third slide"
-                className="about-carousel-img"
               />
             </Carousel.Item>
           </Carousel>
