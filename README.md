@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+Purdue's official fencing club website (hosted by github pages).
+Please make sure to do any testing on a branch if adding new features, remember to change officer photos every year, etc.
+
+Thanks!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
