@@ -24,6 +24,7 @@ import isaiah from "../images/isaiah_officer.jpg"
 import jacky from "../images/jacky_officer.jpg"
 import gabby from "../images/gabby_officer.jpg"
 import andy from "../images/andy_officer.jpg"
+import jonas from "../images/jonas_officer.jpg"
 
 
 import Navigation from "../components/Navigation";
@@ -143,7 +144,7 @@ const Officers = () => (
               major="Computer Engineering Technology" bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
-            <Officercard name="Isabel Fryman" imagesrc={isabel} position="Travel Coordinator" 
+            <Officercard name="Jonas Erickson" imagesrc={isabel} position="Travel Coordinator" 
               major="Construction Engineering" bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
