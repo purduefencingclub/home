@@ -148,7 +148,7 @@ const Officers = () => (
           </Col>
           <Col>
             <Officercard name="Kai Boyer" imagesrc={defaultImg} position="Armorer" 
-              major="[major]" bladeimg={epeeicon} blade="Foil" year="Junior" yearimg={junior}/>
+              major="Mechanical Engineering" bladeimg={foilicon} blade="Foil" year="Junior" yearimg={junior}/>
           </Col>
         </Row>
         <br />
