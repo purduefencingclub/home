@@ -24,6 +24,7 @@ import isaiah from "../images/isaiah_officer.jpg"
 import jacky from "../images/jacky_officer.jpg"
 import gabby from "../images/gabby_officer.jpg"
 import andy from "../images/andy_officer.jpg"
+import jonas from "../images/jonas_officer.jpg"
 
 
 import Navigation from "../components/Navigation";
