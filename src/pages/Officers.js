@@ -13,18 +13,17 @@ import rightsaber from "../images/rightsaber1.png";
 import rightfoil from "../images/rightfoil.png";
 import Officercard from "../components/Officercard"
 
-import casper from "../images/casper_officer.jpg"
-import anya from "../images/anya_officer.jpg"
-import aidan from "../images/aidan_officer.jpeg"
-import phillip from "../images/phillip_officer.png"
-import isabel from "../images/isabel_officer.jpg"
-import katy from "../images/katy_officer.jpg"
-import jacob from "../images/jacob_officer.jpg"
+import jacob from "../images/jacob_officer2.jpg"
 import isaiah from "../images/isaiah_officer.jpg"
-import jacky from "../images/jacky_officer.jpg"
 import gabby from "../images/gabby_officer.jpg"
-import andy from "../images/andy_officer.jpg"
 import jonas from "../images/jonas_officer.jpg"
+import nikita from "../images/nikita_officer.jpg"
+import nathan from "../images/nathan_officer.JPEG"
+import abby from "../images/abby_officer.jpg"
+import max from "../images/max_officer.jpg"
+import renee from "../images/renee_officer1.jpg"
+import emma from "../images/emma_officer.heic"
+import defaultImg from "../images/default_officer.jpg"
 
 
 import Navigation from "../components/Navigation";
@@ -48,7 +47,7 @@ const Officers = () => (
         <Container>
           <Row>
             <p className="heading-fencing">OFFICERS</p>
-            <p className="heading-date">2024 - 2025</p>
+            <p className="heading-date">2025 - 2026</p>
           </Row>
         </Container>
       </div>
@@ -87,24 +86,20 @@ const Officers = () => (
               major="Chemistry" bladeimg={foilicon} blade="Foil" year="Junior" yearimg={junior}/>
             </Col>
             <Col>
-              <Officercard name="Casper Lai" imagesrc={casper} position="President" 
-              major="Industrial Engineering" bladeimg={sabericon} blade="Sabre" year="Senior" yearimg={senior}/>
+              <Officercard name="Jacob Hilton" imagesrc={jacob} position="Vice President" 
+              major="Electrical Engineering" bladeimg={epeeicon} blade="Epee" year="Junior" yearimg={junior}/>
             </Col>
             <Col>
-              <Officercard name="Anya Ghali" imagesrc={anya} position="Vice President" 
-              major="Aero/Astro Engineering + Math" bladeimg={sabericon} blade="Sabre" year="Senior" yearimg={senior}/>
+              <Officercard name="Nikita Kravcenko" imagesrc={nikita} position="Treasurer" 
+              major="Finance" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
             </Col>
             <Col>
-              <Officercard name="Andy Hu" imagesrc={andy} position="Fundraising Officer" major="Electrical Engineering"
-               bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={junior}/>
+              <Officercard name="Nathan Mamkin" imagesrc={nathan} position="Fundraising Officer" major="Electrical Engineering"
+               bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
             </Col>
             <Col>
-              <Officercard name="Gabrielle Angelides" imagesrc={gabby} position="Fundraising Officer" 
-               major="Environmental Science + Pre-Law" year="Sophomore" bladeimg={epeeicon} blade="Epee" yearimg={sophomore}/>
-            </Col>
-            <Col>
-              <Officercard name="Katy Heath" imagesrc={katy} position="Safety Officer" 
-              major="Speech Language Hearing Sciences + Pre-Med" bladeimg={sabericon} blade="Sabre" year="Junior" yearimg={junior}/>
+              <Officercard name="Abby Schroeder" imagesrc={abby} position="Safety Officer" 
+              major="Biomedical Health Sciences" bladeimg={epeeicon} blade="Epee" year="Junior" yearimg={junior}/>
             </Col>
           </Row>
         <br />
@@ -132,24 +127,28 @@ const Officers = () => (
         <br />
         <Row xs={1} sm={1} md={2} lg={2} xl={3}>
           <Col>
-            <Officercard name="Aidan Villegas" imagesrc={aidan} position="Web/Media Coordinator" 
-              major="Robotics Engineering Technology" bladeimg={sabericon} blade="Sabre" year="Senior" yearimg={senior}/>
+            <Officercard name="Maxwell Meytin" imagesrc={max} position="Web/Media Coordinator" 
+              major="Computer Science" bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
-            <Officercard name="Phillip Bernwanger" imagesrc={phillip} position="Head Web/Media Coordinator" 
-              major="Computer Science" bladeimg={foilicon} blade="Foil" year="Senior" yearimg={senior}/>
+            <Officercard name="Renee Tung" imagesrc={renee} position="Web/Media Coordinator" 
+              major="Business Analytics & Information Mgmt" bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
-            <Officercard name="Jacky Hu" imagesrc={jacky} position="Web/Media Coordinator" 
-              major="Computer Engineering Technology" bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
+            <Officercard name="Emma Bolig" imagesrc={emma} position="Engagement Officer" 
+              major="Public Health" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
+          </Col>
+          <Col>
+            <Officercard name="Jonas Erickson" imagesrc={jonas} position="Travel Coordinator" 
+              major="Aero/Astro Engineering" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
             <Officercard name="Jonas Erickson" imagesrc={jonas} position="Travel Coordinator" 
               major="Aerospace Engineering" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
-            <Officercard name="Jacob Hilton" imagesrc={jacob} position="Armorer" 
-              major="Electrical Engineering" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
+            <Officercard name="Kai Boyer" imagesrc={defaultImg} position="Armorer" 
+              major="Mechanical Engineering" bladeimg={foilicon} blade="Foil" year="Junior" yearimg={junior}/>
           </Col>
         </Row>
         <br />

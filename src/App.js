@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Switch, withRouter } from "react-router-dom";
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Officers from "./pages/Officers";

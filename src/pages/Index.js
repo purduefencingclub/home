@@ -202,7 +202,7 @@ const Index = () => (
               </Col>
             </Hidden>
             <Col>
-              <h2 className="text-center">Practice Schedule Fall 2025</h2>
+              <h2 className="text-center">Practice Schedule Fall 2026</h2>
               <Visible xs sm md>
                 <br />
               </Visible>
@@ -235,9 +235,9 @@ const Index = () => (
                 <p className="fencing-subheader">9:00pm - 11:45pm</p>
               </Col>
               <Col>
-                <p className="fencing-header">SAT</p>
+                <p className="fencing-header">SUN</p>
                 <p className="sunday-subheader">*Open Fencing</p>
-                <p className="fencing-subheader">12:00pm - 3:00pm</p>
+                <p className="fencing-subheader">10:00am - 12:00pm</p>
               </Col>
             </Row>
           </Container>
