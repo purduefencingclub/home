@@ -27,6 +27,10 @@ import andy from "../images/andy_officer.jpg"
 import jonas from "../images/jonas_officer.jpg"
 import nikita from "../images/nikita_officer.jpg"
 import nathan from "../images/nathan_officer.JPEG"
+import abby from "../images/abby_officer.jpg"
+import max from "../images/max_officer.jpg"
+import renee from "../images/renee_officer1.jpg"
+import emma from "../images/emma_officer.heic"
 
 
 import Navigation from "../components/Navigation";
@@ -50,7 +54,7 @@ const Officers = () => (
         <Container>
           <Row>
             <p className="heading-fencing">OFFICERS</p>
-            <p className="heading-date">2024 - 2025</p>
+            <p className="heading-date">2025 - 2026</p>
           </Row>
         </Container>
       </div>
@@ -97,16 +101,12 @@ const Officers = () => (
               major="Finance" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
             </Col>
             <Col>
-              <Officercard name="Nathan Mamkin" imagesrc={nathan} position="Fundraising Officer" major="Industrial Engineering"
+              <Officercard name="Nathan Mamkin" imagesrc={nathan} position="Fundraising Officer" major="Electrical Engineering"
                bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
             </Col>
             <Col>
-              <Officercard name="Gabrielle Angelides" imagesrc={gabby} position="Fundraising Officer" 
-               major="Environmental Science + Pre-Law" year="Sophomore" bladeimg={epeeicon} blade="Epee" yearimg={sophomore}/>
-            </Col>
-            <Col>
-              <Officercard name="Katy Heath" imagesrc={katy} position="Safety Officer" 
-              major="Speech Language Hearing Sciences + Pre-Med" bladeimg={sabericon} blade="Sabre" year="Junior" yearimg={junior}/>
+              <Officercard name="Abby Schroeder" imagesrc={abby} position="Safety Officer" 
+              major="Biomedical Health Sciences" bladeimg={epeeicon} blade="Epee" year="Junior" yearimg={junior}/>
             </Col>
           </Row>
         <br />
@@ -134,24 +134,28 @@ const Officers = () => (
         <br />
         <Row xs={1} sm={1} md={2} lg={2} xl={3}>
           <Col>
-            <Officercard name="Aidan Villegas" imagesrc={aidan} position="Web/Media Coordinator" 
-              major="Robotics Engineering Technology" bladeimg={sabericon} blade="Sabre" year="Senior" yearimg={senior}/>
+            <Officercard name="Maxwell Meytin" imagesrc={max} position="Web/Media Coordinator" 
+              major="Computer Science" bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
-            <Officercard name="Phillip Bernwanger" imagesrc={phillip} position="Head Web/Media Coordinator" 
-              major="Computer Science" bladeimg={foilicon} blade="Foil" year="Senior" yearimg={senior}/>
+            <Officercard name="Renee Tung" imagesrc={renee} position="Web/Media Coordinator" 
+              major="Business Analytics & Information Mgmt" bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
-            <Officercard name="Jacky Hu" imagesrc={jacky} position="Web/Media Coordinator" 
-              major="Computer Engineering Technology" bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
+            <Officercard name="Emma Bolig" imagesrc={emma} position="Engagement Officer" 
+              major="Public Health" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
             <Officercard name="Jonas Erickson" imagesrc={jonas} position="Travel Coordinator" 
               major="Aero/Astro Engineering Engineering" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
-            <Officercard name="Jacob Hilton" imagesrc={jacob} position="Armorer" 
-              major="Electrical Engineering" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
+            <Officercard name="Gabrielle Angelides" imagesrc={gabby} position="Armorer" 
+              major="Environmental Science + Pre-Law" bladeimg={epeeicon} blade="Epee" year="Junior" yearimg={junior}/>
+          </Col>
+          <Col>
+            <Officercard name="Kai Boyer" imagesrc={gabby} position="Armorer" 
+              major="[major]" bladeimg={epeeicon} blade="Foil" year="Junior" yearimg={junior}/>
           </Col>
         </Row>
         <br />
