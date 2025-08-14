@@ -23,6 +23,7 @@ import abby from "../images/abby_officer.jpg"
 import max from "../images/max_officer.jpg"
 import renee from "../images/renee_officer1.jpg"
 import emma from "../images/emma_officer.heic"
+import defaultImg from "../images/default_officer.jpg"
 
 
 import Navigation from "../components/Navigation";
@@ -139,14 +140,14 @@ const Officers = () => (
           </Col>
           <Col>
             <Officercard name="Jonas Erickson" imagesrc={jonas} position="Travel Coordinator" 
-              major="Aero/Astro Engineering Engineering" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
+              major="Aero/Astro Engineering" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
             <Officercard name="Gabrielle Angelides" imagesrc={gabby} position="Armorer" 
               major="Environmental Science + Pre-Law" bladeimg={epeeicon} blade="Epee" year="Junior" yearimg={junior}/>
           </Col>
           <Col>
-            <Officercard name="Kai Boyer" imagesrc={gabby} position="Armorer" 
+            <Officercard name="Kai Boyer" imagesrc={defaultImg} position="Armorer" 
               major="[major]" bladeimg={epeeicon} blade="Foil" year="Junior" yearimg={junior}/>
           </Col>
         </Row>
