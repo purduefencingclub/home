@@ -13,17 +13,9 @@ import rightsaber from "../images/rightsaber1.png";
 import rightfoil from "../images/rightfoil.png";
 import Officercard from "../components/Officercard"
 
-import casper from "../images/casper_officer.jpg"
-import anya from "../images/anya_officer.jpg"
-import aidan from "../images/aidan_officer.jpeg"
-import phillip from "../images/phillip_officer.png"
-import isabel from "../images/isabel_officer.jpg"
-import katy from "../images/katy_officer.jpg"
 import jacob from "../images/jacob_officer2.jpg"
 import isaiah from "../images/isaiah_officer.jpg"
-import jacky from "../images/jacky_officer.jpg"
 import gabby from "../images/gabby_officer.jpg"
-import andy from "../images/andy_officer.jpg"
 import jonas from "../images/jonas_officer.jpg"
 import nikita from "../images/nikita_officer.jpg"
 import nathan from "../images/nathan_officer.JPEG"
