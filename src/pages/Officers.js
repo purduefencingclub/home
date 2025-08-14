@@ -83,8 +83,8 @@ const Officers = () => (
           (phones/laptops) which helps spacing on different device widths. 
           Need to add these to other pages */}
             <Col>
-              <Officercard name="Isaiah Need" imagesrc={isaiah} position="Treasurer" 
-              major="Chemistry" bladeimg={foilicon} blade="Foil" year="Sophomore" yearimg={sophomore}/>
+              <Officercard name="Isaiah Need" imagesrc={isaiah} position="President" 
+              major="Chemistry" bladeimg={foilicon} blade="Foil" year="Junior" yearimg={junior}/>
             </Col>
             <Col>
               <Officercard name="Casper Lai" imagesrc={casper} position="President" 
