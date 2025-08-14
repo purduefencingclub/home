@@ -143,8 +143,8 @@ const Officers = () => (
               major="Aero/Astro Engineering" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
-            <Officercard name="Gabrielle Angelides" imagesrc={gabby} position="Armorer" 
-              major="Environmental Science + Pre-Law" bladeimg={epeeicon} blade="Epee" year="Junior" yearimg={junior}/>
+            <Officercard name="Jonas Erickson" imagesrc={jonas} position="Travel Coordinator" 
+              major="Aerospace Engineering" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
             <Officercard name="Kai Boyer" imagesrc={defaultImg} position="Armorer" 
