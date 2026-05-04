@@ -23,7 +23,7 @@ const Contact = () => {
         <div className="header-text">
           <Container>
             <Row>
-              <p className="heading-fencing">GET IN TOUCHE</p>
+              <p className="heading-fencing">GET IN TOUCHÉ</p>
             </Row>
           </Container>
         </div>

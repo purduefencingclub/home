@@ -84,7 +84,7 @@ const Officers = () => (
           Need to add these to other pages */}
             <Col>
               <Officercard name="Isabel Fryman" imagesrc={isabel} position="President" 
-              major="Chemistry" bladeimg={foilicon} blade="Foil" year="Junior" yearimg={junior}/>
+              major="Contruction Engineering" bladeimg={foilicon} blade="Foil" year="Junior" yearimg={junior}/>
             </Col>
             <Col>
               <Officercard name="Jacob Hilton" imagesrc={jacob} position="Vice President" 
