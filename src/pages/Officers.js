@@ -21,8 +21,8 @@ import nikita from "../images/nikita_officer.jpg"
 import nathan from "../images/nathan_officer.JPEG"
 import abby from "../images/abby_officer.jpg"
 import max from "../images/max_officer.jpg"
-import renee from "../images/renee_officer1.jpg"
-import emma from "../images/emma_officer.heic"
+import renee from "../images/renee_officer.jpg"
+import emma from "../images/emma_officer.jpg"
 import defaultImg from "../images/default_officer.jpg"
 import kai from "../images/kai_officer.jpg"
 import isabel from "../images/isabel_officer.jpg"
@@ -48,7 +48,7 @@ const Officers = () => (
         <Container>
           <Row>
             <p className="heading-fencing">OFFICERS</p>
-            <p className="heading-date">2025 - 2026</p>
+            <p className="heading-date">2026 - 2027</p>
           </Row>
         </Container>
       </div>
@@ -84,23 +84,23 @@ const Officers = () => (
           Need to add these to other pages */}
             <Col>
               <Officercard name="Isabel Fryman" imagesrc={isabel} position="President" 
-              major="Contruction Engineering" bladeimg={foilicon} blade="Foil" year="Junior" yearimg={junior}/>
+              major="Contruction Engineering" bladeimg={sabericon} blade="Sabre" year="Senior" yearimg={senior}/>
             </Col>
             <Col>
               <Officercard name="Jacob Hilton" imagesrc={jacob} position="Vice President" 
-              major="Electrical Engineering" bladeimg={epeeicon} blade="Epee" year="Junior" yearimg={junior}/>
+              major="Electrical Engineering" bladeimg={epeeicon} blade="Epee" year="Senior" yearimg={senior}/>
             </Col>
             <Col>
               <Officercard name="Nikita Kravcenko" imagesrc={nikita} position="Treasurer" 
               major="Finance" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
             </Col>
             <Col>
-              <Officercard name="Nathan Mamkin" imagesrc={nathan} position="Fundraising Officer" major="Electrical Engineering"
-               bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
+              <Officercard name="Gabrielle Angelides" imagesrc={gabby} position="Fundraising Officer" major="Environmental Science + Pre-Law"
+               bladeimg={epeeicon} blade="Epee" year="Senior" yearimg={senior}/>
             </Col>
             <Col>
-              <Officercard name="Abby Schroeder" imagesrc={abby} position="Safety Officer" 
-              major="Biomedical Health Sciences" bladeimg={epeeicon} blade="Epee" year="Junior" yearimg={junior}/>
+              <Officercard name="Emma Bolig" imagesrc={emma} position="Safety Officer" 
+              major="Public Health + Pre-Med" bladeimg={epeeicon} blade="Epee" year="Junior" yearimg={junior}/>
             </Col>
           </Row>
         <br />
