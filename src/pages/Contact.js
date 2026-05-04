@@ -90,13 +90,13 @@ const Contact = () => {
           <hr></hr>
           <Container className="contact-primary text-center">
               <Row xs={1} md={2}>
-                <Col>
+                {/*<Col>
                   <p className="fencing-header">Primary Contact</p>
                   <Image src={casper} roundedCircle fluid width="40%" />
                   <p className="fencing-subheader">Casper Lai</p>
 
                   <p className="fencing-subheader">Casper Email @casperemail.com</p>
-                </Col>
+                </Col>*/}
                 <Col>
                   <Row xs={1}>
                     <Col>
