@@ -100,7 +100,7 @@ const Contact = () => {
                 <Col>
                   <Row xs={1}>
                     <Col>
-                      <p className="fencing-header">Club Contact Info</p>
+                      <p className="fencing-header">Club Contact Infof</p>
                     </Col>
                     <Col>
                       <Image src={logo} roundedCircle fluid width="40%" />
