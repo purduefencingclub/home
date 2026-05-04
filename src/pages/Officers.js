@@ -25,7 +25,7 @@ import renee from "../images/renee_officer.jpg"
 import emma from "../images/emma_officer.jpg"
 import defaultImg from "../images/default_officer.jpg"
 import kai from "../images/kai_officer.jpg"
-import isabel from "../images/isabel_officer.jpg"
+import isabel from "../images/isabelfryman2026_officer.jpg"
 
 import Navigation from "../components/Navigation";
 import "../styles/index.css";
