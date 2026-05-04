@@ -24,7 +24,8 @@ import max from "../images/max_officer.jpg"
 import renee from "../images/renee_officer1.jpg"
 import emma from "../images/emma_officer.heic"
 import defaultImg from "../images/default_officer.jpg"
-
+import kai from "../images/kai_officer.jpg"
+import isabel from "../images/isabel_officer.jpg"
 
 import Navigation from "../components/Navigation";
 import "../styles/index.css";
@@ -82,7 +83,7 @@ const Officers = () => (
           (phones/laptops) which helps spacing on different device widths. 
           Need to add these to other pages */}
             <Col>
-              <Officercard name="Isaiah Need" imagesrc={isaiah} position="President" 
+              <Officercard name="Isabel Fryman" imagesrc={isabel} position="President" 
               major="Chemistry" bladeimg={foilicon} blade="Foil" year="Junior" yearimg={junior}/>
             </Col>
             <Col>
@@ -147,7 +148,7 @@ const Officers = () => (
               major="Environmental Science + Pre-Law" bladeimg={epeeicon} blade="Epee" year="Junior" yearimg={junior}/>
           </Col>
           <Col>
-            <Officercard name="Kai Boyer" imagesrc={defaultImg} position="Armorer" 
+            <Officercard name="Kai Boyer" imagesrc={kai} position="Armorer" 
               major="Mechanical Engineering" bladeimg={foilicon} blade="Foil" year="Junior" yearimg={junior}/>
           </Col>
         </Row>
