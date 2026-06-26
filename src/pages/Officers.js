@@ -26,7 +26,8 @@ import emma from "../images/emma_officer.jpg"
 import defaultImg from "../images/default_officer.jpg"
 import kai from "../images/kai_officer.jpg"
 import isabel from "../images/isabelfryman2026_officer.jpg"
-import britton from"../images/britton.jpg"
+import britton from "../images/britton.jpg"
+import rajan from "../images/rajan.jpg"
 
 import Navigation from "../components/Navigation";
 import "../styles/index.css";
@@ -145,7 +146,7 @@ const Officers = () => (
               major="Chemistry" bladeimg={foilicon} blade="Foil" year="Senior" yearimg={senior}/>
           </Col>
           <Col>
-            <Officercard name="Rajan Jhaveri" imagesrc={defaultImg} position="Armorer" 
+            <Officercard name="Rajan Jhaveri" imagesrc={rajan} position="Armorer" 
               major="Aerospace Engineering" bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
