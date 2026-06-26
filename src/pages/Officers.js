@@ -83,7 +83,7 @@ const Officers = () => (
           (phones/laptops) which helps spacing on different device widths. 
           Need to add these to other pages */}
             <Col>
-              <Officercard name="Isabel Fryman" imagesrc={isabel} position="President" 
+              <Officercard name="Isabel Fryman" imagesrc={isabelfryman2026_officer} position="President" 
               major="Contruction Engineering" bladeimg={sabericon} blade="Sabre" year="Senior" yearimg={senior}/>
             </Col>
             <Col>
@@ -128,12 +128,12 @@ const Officers = () => (
         <br />
         <Row xs={1} sm={1} md={2} lg={2} xl={3}>
           <Col>
-            <Officercard name="Grant Zhou" imagesrc={defaultImg} position="Web/Media Coordinator" 
-              major="Mechanical Engineering" bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
+            <Officercard name="Britton Rice" imagesrc={defaultImg} position="Web/Media Coordinator" 
+              major="Anthropology" bladeimg={epeeicon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
             <Officercard name="Renee Tung" imagesrc={renee} position="Web/Media Coordinator" 
-              major="Business Analytics & Info. Mgmt" bladeimg={sabericon} blade="Sabre" year="Junior" yearimg={junior}/>
+              major="Computer Information Systems" bladeimg={sabericon} blade="Sabre" year="Junior" yearimg={junior}/>
           </Col>
           <Col>
             <Officercard name="Gabrielle Angelides" imagesrc={gabby} position="Engagement Officer" 
