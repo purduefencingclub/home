@@ -26,6 +26,7 @@ import emma from "../images/emma_officer.jpg"
 import defaultImg from "../images/default_officer.jpg"
 import kai from "../images/kai_officer.jpg"
 import isabel from "../images/isabelfryman2026_officer.jpg"
+import britton from"../images/britton.jpg"
 
 import Navigation from "../components/Navigation";
 import "../styles/index.css";
@@ -128,7 +129,7 @@ const Officers = () => (
         <br />
         <Row xs={1} sm={1} md={2} lg={2} xl={3}>
           <Col>
-            <Officercard name="Britton Rice" imagesrc={defaultImg} position="Web/Media Coordinator" 
+            <Officercard name="Britton Rice" imagesrc={britton} position="Web/Media Coordinator" 
               major="Anthropology" bladeimg={epeeicon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
