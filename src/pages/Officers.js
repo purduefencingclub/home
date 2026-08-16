@@ -135,7 +135,7 @@ const Officers = () => (
           </Col>
           <Col>
             <Officercard name="Renee Tung" imagesrc={renee} position="Web/Media Coordinator" 
-              major="Computer Information Systems" bladeimg={sabericon} blade="Sabre" year="Junior" yearimg={junior}/>
+              major="Data Analytics" bladeimg={sabericon} blade="Sabre" year="Junior" yearimg={junior}/>
           </Col>
           <Col>
             <Officercard name="Gabrielle Angelides" imagesrc={gabby} position="Engagement Officer" 

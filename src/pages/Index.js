@@ -236,7 +236,7 @@ const Index = () => (
               </Col>
               <Col>
                 <p className="fencing-header">SUN</p>
-                <p className="sunday-subheader">*Open Fencing</p>
+                <p className="sunday-subheader">*Open Fencing*</p>
                 <p className="fencing-subheader">12:00pm - 2:00pm</p>
               </Col>
             </Row>
