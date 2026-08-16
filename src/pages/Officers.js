@@ -28,6 +28,7 @@ import kai from "../images/kai_officer.jpg"
 import isabel from "../images/isabelfryman2026_officer.jpg"
 import britton from "../images/britton.jpg"
 import rajan from "../images/rajan.jpg"
+import leoyu from ".../images/leoyu.jepg"
 
 import Navigation from "../components/Navigation";
 import "../styles/index.css";
@@ -150,7 +151,7 @@ const Officers = () => (
               major="Aerospace Engineering" bladeimg={sabericon} blade="Sabre" year="Sophomore" yearimg={sophomore}/>
           </Col>
           <Col>
-            <Officercard name="Leo Yu" imagesrc={defaultImg} position="Armorer" 
+            <Officercard name="Leo Yu" imagesrc={leoyu} position="Armorer" 
               major="Mechanical Engineering" bladeimg={foilicon} blade="Foil" year="Senior" yearimg={senior}/>
           </Col>
         </Row>
