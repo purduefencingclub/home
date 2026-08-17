@@ -33,10 +33,11 @@ const Contact = () => {
       <div>
         <Container className="fencing-body">
             <p className="fencing-header">
-              Have a question or comment? Leave us a message.
+              Have a question or comment? Leave us a message or join our discord!
             </p>
             <p className="fencing-subheader">
-              We'll get back to you as soon as we can.
+              We'll get back to you as soon as we can. 
+              Copy this link to join the discord server: https://discord.gg/fqbnwAuYZx
             </p>
           <br />
           {/* <Container>
