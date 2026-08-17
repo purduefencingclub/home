@@ -36,7 +36,7 @@ const Contact = () => {
               Have a question or comment? Leave us a message or join our discord!
             </p>
             <p className="fencing-subheader">
-              We'll get back to you as soon as we can.  Copy this link to join the discord server: https://discord.gg/fqbnwAuYZx
+              We'll get back to you as soon as we can.
             </p>
             <p className="fencing-subheader">
               Copy this link to join the discord server: https://discord.gg/fqbnwAuYZx
@@ -96,7 +96,7 @@ const Contact = () => {
               <Row xs={1} md={2}>
                 <Col>
                   <p className="fencing-header">Primary Contact</p>
-                  <Image src={renee} roundedCircle fluid width="50%" />
+                  <Image src={renee} roundedCircle fluid width="10%" />
                   <p className="fencing-subheader">Renee Tung</p>
 
                   <p className="fencing-subheader">tung21@purdue.edu</p>
