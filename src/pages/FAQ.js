@@ -67,8 +67,7 @@ const data = {
     {
       title: "How do I contact the club?",
       content:
-        "Send us an email to purdue.fencing.club@gmail.com or reach out to us on social media! ",
-        "You can also join our discord server by copying and pasting this link in your browser: https://discord.gg/fqbnwAuYZx",
+        "Send us an email to purdue.fencing.club@gmail.com or reach out to us on social media! You can also join our discord server by copying and pasting this link in your browser: https://discord.gg/fqbnwAuYZx",
     },
     {
       title: "How many members of the club are there?",
