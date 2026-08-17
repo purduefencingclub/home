@@ -37,22 +37,22 @@ const data = {
     {
       title: "How do I join the club?",
       content:
-        "You can either attend a call out meeting at the beginning of fall semester or email the club president and they will get you more information.",
+        "You can either attend the callout meeting at the beginning of the fall semester or email our webmasters at purdue.fencing.club@gmail.com for more information.",
     },
     {
       title: "Can I rent equipment?",
       content:
-        "Definitely! Our Equipment rental fee is 40$ in addition to club dues and will be available for all who need it.",
+        "Definitely! Our equipment rental fee is $40 in addition to club dues and will be available for all who need it.",
     },
     {
       title: "Is fencing dangerous?",
       content:
-        "No. Fencing is a sport that has been around for a long time and while it originated from dueling that could end in injury, we now wear plenty of protective gear to make sure injuries are few and far between. ",
+        "No. Fencing is a sport that has been around for a long time. While it originated from dueling that could end in injury, we now wear plenty of protective gear to make sure injuries are few and far between. ",
     },
     {
       title: "Do I have to pick one weapon to join the club?",
       content:
-        "No. We have several club members that are proficient in two or all three weapons. If you are new to fencing we do advise that you try to pick your favorite and stick with it until you get a little more experience.",
+        "No. We have several club members that are proficient in two or all three weapons. If you are new to fencing, we do advise that you try to pick your favorite and stick with it until you get a little more experience.",
     },
     {
       title: "Can I switch weapons after I've picked one?",
@@ -67,7 +67,8 @@ const data = {
     {
       title: "How do I contact the club?",
       content:
-        "Send us an email to purdue.fencing.club@gmail.com or reach out to us on social media! You can also always contact the President directly if you would prefer.",
+        "Send us an email to purdue.fencing.club@gmail.com or reach out to us on social media! ",
+        "You can also join our discord server by copying and pasting this link in your browser: https://discord.gg/fqbnwAuYZx",
     },
     {
       title: "How many members of the club are there?",
@@ -92,7 +93,7 @@ const data = {
     {
       title: "How do we travel to tournaments?",
       content:
-        "We have volounteer drivers who complete a driver certification through Purdue. We then carpool using either privately owned or university vehicles.",
+        "We have volunteer drivers who complete a driver certification through Purdue. We then carpool using either privately owned or university vehicles.",
     },
   ],
 };
