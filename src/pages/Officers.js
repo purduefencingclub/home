@@ -117,7 +117,7 @@ const Officers = () => (
           </Col>
           <Col>
             <h2 className="text-center font-weight-bold fencing-divider-subtitle">
-              OTHER OFFICERS
+              SECONDARY OFFICERS
             </h2>
           </Col>
           <Col>
