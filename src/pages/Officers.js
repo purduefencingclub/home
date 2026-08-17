@@ -28,7 +28,7 @@ import kai from "../images/kai_officer.jpg"
 import isabel from '../images/isabelfryman2026_officer.jpg';
 import britton from "../images/britton.jpg"
 import rajan from "../images/rajan.jpg"
-import leoyu from ".../images/leoyu.jpeg"
+import leoyu from "../images/leoyu.jpeg"
 
 import Navigation from "../components/Navigation";
 import "../styles/index.css";
