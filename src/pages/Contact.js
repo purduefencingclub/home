@@ -96,7 +96,7 @@ const Contact = () => {
               <Row xs={1} md={2}>
                 <Col>
                   <p className="fencing-header">Primary Contact</p>
-                  <Image src={renee} roundedCircle fluid width="10%" />
+                  <Image src={renee} roundedCircle fluid width="30%" />
                   <p className="fencing-subheader">Renee Tung</p>
 
                   <p className="fencing-subheader">tung21@purdue.edu</p>

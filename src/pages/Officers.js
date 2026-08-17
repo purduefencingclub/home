@@ -158,6 +158,32 @@ const Officers = () => (
         <br />
         <br />
         <br />
+        </Container>
+        <Container className="fencing-body">
+        <Row>
+          <Col>
+            <img src={rightfoil} width="100%" className="fencing-divider-img" />
+          </Col>
+          <Col>
+            <h2 className="text-center font-weight-bold fencing-divider-subtitle">
+              ADVISOR
+            </h2>
+          </Col>
+          <Col>
+            <img
+              src={rightsaber}
+              className="divider-rotate-180 fencing-divider-img"
+              width="100%"
+            />
+          </Col>
+        </Row>
+        <br />
+        <Row xs={1} sm={1} md={2} lg={2} xl={3}>
+          <Col>
+            <Officercard name="Corey Guilford" imagesrc={britton} position="Web/Media Coordinator" 
+              major="Anthropology" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
+          </Col>
+        </Row>
 
         {/* STAFF CONTAINER
         <Container>
