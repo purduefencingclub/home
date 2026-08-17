@@ -29,7 +29,7 @@ import isabel from '../images/isabelfryman2026_officer.jpg'
 import britton from "../images/britton.jpg"
 import rajan from "../images/rajan.jpg"
 import leoyu from "../images/leoyu.jpeg"
-import corey from "../iamges/corey_advisor.jpg"
+import corey from "../images/corey_advisor.jpg"
 
 import Navigation from "../components/Navigation";
 import "../styles/index.css";
