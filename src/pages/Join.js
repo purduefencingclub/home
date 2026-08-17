@@ -83,7 +83,7 @@ const Join = () => (
        />
       <Eventcard cardTitle="Practice / Open Fencing"
        cardBody="Standard practices with open fencing from 9:00pm to 11:45pm on Tuesday and Thursday, and 12:00 pm to 2:00 pm on Saturdays. Fencers who have not yet signed their safety waivers can click the button below."
-       cardButtonText="Safety waiver for new members."
+       cardButtonText="Safety Waiver"
        cardButtonLink="/sign-up"
        cardFooterText="Next Class: Tue, Thur, Sat | Location: Corec MP5"
        cardImage={fencingpic1}

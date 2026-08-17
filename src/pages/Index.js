@@ -138,7 +138,7 @@ const Index = () => (
               </Hidden>
               <Col>
                 <h2 className="text-center">
-                  Some Universities We've Competed With
+                  Universities We Compete With
                 </h2>
                 <Visible xs sm md>
                   <br />

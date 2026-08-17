@@ -25,19 +25,19 @@ const SignUp = () => (
     <div>
       <Container className="fencing-body">
         <h1>
-          The next beginner's practice session is: September 8rd, 9:00pm in MP5 in the COREC
+          The next beginner's practice session is: September 8rd, 9:00pm in MP5 in the COREC.
         </h1>
         <br />
         <hr></hr>
           <br />
           <h2>Pre-Practice Item 1: Sign the Waiver</h2>
           <p className="fencing-text">
-            Before you can start fencing, you'll have to sign our waiver.
+            Before you can start fencing, you need to sign our safety waiver.
             Fencing isn't dangerous, but it is a contact sport!
           </p>
 
           <a href="https://powerforms.docusign.net/95ff1cad-4684-44d3-b347-b1de508ee8cf?env=na2&accountId=9ad6adfd-6804-409b-91bc-173cbee909f9">
-            <Button variant="dark">Sign The Waiver Here</Button>
+            <Button variant="dark">Safety Waiver</Button>
           </a>
             
           <a href="https://powerforms.docusign.net/99f87433-9769-472c-882d-231571058091?env=na2&accountId=9ad6adfd-6804-409b-91bc-173cbee909f9">
@@ -46,14 +46,14 @@ const SignUp = () => (
         <br />
         <hr></hr>
           <br />
-          <h2>Pre-Practice Item 2: Wear the Right Clothes</h2>
+          <h2>Pre-Practice Item 2: Wear appropriate clothing!</h2>
           <p className="fencing-text">
-            Make sure you wear gym shoes and athletic clothing to practice.
+            Make sure you wear gym shoes and breathable/athletic clothing to practice.
           </p>
           <br />
+      {/* theres no link to a resource page...
         <hr></hr>
         <br />
-          {/* theres no link to a resource page...
           <h2>
             (Optional) Pre-Practice Item 3: Skim the
             <a href="/beginner"> Beginner </a> Resource Page
@@ -63,9 +63,9 @@ const SignUp = () => (
             a head start before practice. If you can't read it though, don't
             worry, we'll cover everything at practice.
           </p>
-          */}
           <br />
         <hr></hr>
+        */}
         <h2>
           If you've signed the waiver and wear right clothes, you're
           ready to go! Just meet us at the Corec, and we've got the rest.
