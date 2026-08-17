@@ -29,6 +29,7 @@ import isabel from '../images/isabelfryman2026_officer.jpg'
 import britton from "../images/britton.jpg"
 import rajan from "../images/rajan.jpg"
 import leoyu from "../images/leoyu.jpeg"
+import corey from "../iamges/corey_advisor.jpg"
 
 import Navigation from "../components/Navigation";
 import "../styles/index.css";
@@ -178,10 +179,10 @@ const Officers = () => (
           </Col>
         </Row>
         <br />
-        <Row xs={1} sm={1} md={2} lg={2} xl={3}>
+        <Row xs={2} sm={1} md={2} lg={2} xl={3}>
           <Col>
-            <Officercard name="Corey Guilford" imagesrc={britton} position="Web/Media Coordinator" 
-              major="Anthropology" bladeimg={epeeicon} blade="Epee" year="Sophomore" yearimg={sophomore}/>
+            <Officercard name="Corey Guilford" imagesrc={corey} position="Senior Advisor" 
+              major="Engineering" bladeimg={epeeicon} blade="Epee" year="Senior" yearimg={senior}/>
           </Col>
         </Row>
 
