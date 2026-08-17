@@ -25,7 +25,7 @@ import renee from "../images/renee_officer.jpg"
 import emma from "../images/emma_officer.jpg"
 import defaultImg from "../images/default_officer.jpg"
 import kai from "../images/kai_officer.jpg"
-/*import isabel from '../images/isabelfryman2026_officer.jpg'*/
+import isabel from '../images/isabelfryman2026_officer.jpg'
 import britton from "../images/britton.jpg"
 import rajan from "../images/rajan.jpg"
 import leoyu from "../images/leoyu.jpeg"
@@ -86,7 +86,7 @@ const Officers = () => (
           (phones/laptops) which helps spacing on different device widths. 
           Need to add these to other pages */}
             <Col>
-              <Officercard name="Isabel Fryman" imagesrc={defaultImg} position="President" 
+              <Officercard name="Isabel Fryman" imagesrc={isabel} position="President" 
               major="Contruction Engineering" bladeimg={sabericon} blade="Sabre" year="Senior" yearimg={senior}/>
             </Col>
             <Col>
