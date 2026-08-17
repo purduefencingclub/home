@@ -25,7 +25,7 @@ const SignUp = () => (
     <div>
       <Container className="fencing-body">
         <h1>
-          The next beginner's practice session is: September 3rd, 9:00pm in MP5 in the Corec
+          The next beginner's practice session is: September 8rd, 9:00pm in MP5 in the COREC
         </h1>
         <br />
         <hr></hr>
@@ -62,12 +62,12 @@ const SignUp = () => (
             a head start before practice. If you can't read it though, don't
             worry, we'll cover everything at practice.
           </p>
-          <br />1
+          <br />
         <hr></hr>
         <h2>
-          If you've signed the waiver, and are wearing the right clothes, you're
+          If you've signed the waiver and wear right clothes, you're
           ready to go! Just meet us at the Corec, and we've got the rest.
-          Welcome to fencing!
+          Welcome to fencing at Purdue!
         </h2>
       </Container>
       <br />
