@@ -53,6 +53,7 @@ const SignUp = () => (
           <br />
         <hr></hr>
         <br />
+          {/* theres no link to a resource page...
           <h2>
             (Optional) Pre-Practice Item 3: Skim the
             <a href="/beginner"> Beginner </a> Resource Page
@@ -62,6 +63,7 @@ const SignUp = () => (
             a head start before practice. If you can't read it though, don't
             worry, we'll cover everything at practice.
           </p>
+          */}
           <br />
         <hr></hr>
         <h2>

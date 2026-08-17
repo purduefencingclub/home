@@ -377,7 +377,7 @@ const Beginner = () => {
               The equipment needed to properly set up a wired match between two
               opponents varies depending on the weapon being fenced. In general,
               épée requires the least amount of extra equipment (simply one
-              chord, and a blade which can connect to it). Foil and saber,
+              cord, and a blade which can connect to it). Foil and saber,
               however, require an extra jacket to be worn over the standard
               white jacket, called a lamé (la-MAY), and a special electrical
               fencing mask. <br />
