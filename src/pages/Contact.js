@@ -5,6 +5,7 @@ import image1 from "../images/image1.jpeg";
 import divider from "../images/divider1.png";
 import Footer from "../components/Footer";
 import casper from "../images/casper_officer.jpg"
+import renee from "../images/renee_officer.jpg"
 import Navigation from "../components/Navigation";
 
 import logo from "../logo.svg";
