@@ -12,14 +12,14 @@ const Officercard = ({name, imagesrc, position, major, bladeimg, blade, year, ye
             <br />
             <Card.Text>
             <Row xs={3} md={3}>
-                <Col>
+                <Col xs={7}>
                 <p className="officer-info">{major}</p>
                 </Col>
-                <Col>
+                <Col xs ={2}>
                 <img src={bladeimg} width="45%" />
                 <p className="officer-info">{blade}</p>
                 </Col>
-                <Col>
+                <Col xs={3}>
                 <img src={yearimg} width="45%" />
                 <p className="officer-info">{year}</p>
                 </Col>
