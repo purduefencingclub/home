@@ -182,7 +182,7 @@ const Officers = () => (
         <Row xs={2} sm={1} md={2} lg={2} xl={3}>
           <Col>
             <Officercard name="Corey Guilford" imagesrc={corey} position="Senior Advisor" 
-              major="Engineering" bladeimg={epeeicon} blade="Epee" year="Senior" yearimg={senior}/>
+              major="B.S. Behavioral Neuroscience of Psychology & B.A. Law & Society" bladeimg={epeeicon} blade="Epee" year="Senior" yearimg={senior}/>
           </Col>
         </Row>
 
