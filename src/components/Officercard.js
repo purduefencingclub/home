@@ -11,18 +11,6 @@ const Officercard = ({name, imagesrc, position, major, bladeimg, blade, year, ye
             </Card.Subtitle>
             <br />
             <Card.Text>
-                #new row for Advisor
-                <Row>
-                    <Col xs={8}>
-                        <p className="officer-info">{major}</p>
-                    </Col>
-
-                    <Col xs={4}>
-                        <img src={bladeimg} width="45%" />
-                        <p className="officer-info">{blade}</p>
-                    </Col>
-                </Row>
-
             <Row>
                 <Col xs={7}>
                 <p className="officer-info">{major}</p>
