@@ -36,7 +36,7 @@ const SignUp = () => (
             Fencing isn't dangerous, but it is a contact sport!
           </p>
 
-          <a href="https://powerforms.docusign.net/95ff1cad-4684-44d3-b347-b1de508ee8cf?env=na2&accountId=9ad6adfd-6804-409b-91bc-173cbee909f9">
+          <a href="https://club.fusionfamily.com/@/purdueclubsports/6434436c-d181-40f2-b455-273a7344db2b">
             <Button variant="dark">Safety Waiver</Button>
           </a>
             
