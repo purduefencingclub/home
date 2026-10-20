@@ -42,8 +42,8 @@ const SignUp = () => (
             
           <a href="https://powerforms.docusign.net/99f87433-9769-472c-882d-231571058091?env=na2&accountId=9ad6adfd-6804-409b-91bc-173cbee909f9">
             <Button variant="dark">Waiver for Minors</Button>
-            <p> You may need to sign this at the COREC front desk with your parent, if the link to waiver for minors doesn't work </p>
           </a>
+          <p> You may need to sign this at the COREC front desk with your parent, if the link to waiver for minors doesn't work </p>
         <br />
         <hr></hr>
           <br />
